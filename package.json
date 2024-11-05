@@ -6,8 +6,9 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
+    "start": "yarn run fetch-data && react-native start",
+    "test": "jest",
+    "fetch-data": "bash fetch-data.sh"
   },
   "dependencies": {
     "react": "18.3.1",
