@@ -6,10 +6,11 @@
  */
 
 import React from 'react';
+import { Builder } from './src/Builder';
 
 function App(): React.JSX.Element {
 
-  return <></>;
+  return <Builder></Builder>;
 }
 
 

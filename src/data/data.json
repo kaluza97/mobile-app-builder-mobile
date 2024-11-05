@@ -1,0 +1,28 @@
+[
+    {
+        "_id": "6722a5975bf98d1b2da08956",
+        "header": [],
+        "content": [],
+        "navigation": [
+            {
+                "name": "hello",
+                "icon": "Notifications",
+                "view": "67229fea00a9e17fa07ce0a0",
+                "_id": "6723697f506ecb887d29d1e5"
+            },
+            {
+                "name": "some",
+                "icon": "FavoritesHeart",
+                "view": "67229fec00a9e17fa07ce0a4",
+                "_id": "672383b618958346716f75a0"
+            },
+            {
+                "name": "xd",
+                "icon": "Close",
+                "view": "67229fec00a9e17fa07ce0a4",
+                "_id": "6723e0bcc43ddf65bb392b44"
+            }
+        ],
+        "__v": 0
+    }
+]
