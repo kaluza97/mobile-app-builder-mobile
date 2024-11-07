@@ -3,13 +3,13 @@
 API_URL="http://localhost:9000/api/navigation"
 FILE_PATH="src/data/data.json" 
 
-
 response=$(curl -s -w "%{http_code}" -o data.json "$API_URL")
 http_code="${response: -3}"
 
 if [ "$http_code" -eq 200 ]; then
     echo "Data fetched successfully."
     echo "Overwriting $FILE_PATH..."
+    
     mv data.json "$FILE_PATH"
     echo "Data saved to $FILE_PATH."
 
